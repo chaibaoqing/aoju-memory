@@ -27,13 +27,15 @@ aoju-memory/
 
 ## 安装
 
-### 方式一：OpenClaw 内置
+### 方式一：ClawHub（一键安装）
 ```bash
-openclaw skills install aoju-memory
+# 从 ClawHub 安装（推荐）
+openclaw skills install aoju-memory  # from ClawHub
 ```
 
 ### 方式二：手动安装
 ```bash
+# 从 ClawHub 安装（推荐）
 # 克隆仓库
 git clone https://github.com/chaibaoqing/aoju-memory.git
 cd aoju-memory
@@ -57,6 +59,7 @@ cp -r . ~/.openclaw/workspace/skills/aoju-memory/
 ### 手动调用
 
 ```bash
+# 从 ClawHub 安装（推荐）
 # 搜索记忆
 python3 scripts/mem_recall.py "用户偏好" --limit 5
 
