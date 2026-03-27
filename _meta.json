@@ -1,5 +1,5 @@
 {
-  "owner": "<你的 GitHub 用户名>",
+  "owner": "chaibaoqing",
   "slug": "aoju-memory",
   "displayName": "Memory Learner",
   "description": "Long-term memory, learning, and self-evolution for AI agents. Remembers users, decisions, lessons, and evolves behavior over time.",
@@ -20,5 +20,5 @@
     "mem_status.py"
   ],
   "requirements": [],
-  "commit": "https://github.com/<你的用户名>/aoju-memory/commit/main"
+  "commit": "https://github.com/chaibaoqing/aoju-memory/commit/main"
 }
