@@ -73,6 +73,10 @@ python3 scripts/mem_learn.py \
 # 查看记忆系统健康
 python3 scripts/mem_status.py
 
+# 生成精美的 HTML 记忆报告（浏览器打开）
+python3 scripts/mem_report.py -o memory-report.html
+# 然后用浏览器打开 memory-report.html 查看带评分、图表、颜色的精美报告
+
 # 进化 review（每积累 5 条教训后运行）
 python3 scripts/mem_evolve.py --dry-run
 ```
