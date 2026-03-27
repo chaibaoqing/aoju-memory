@@ -1,4 +1,4 @@
-# 🐺 aoju-memory
+# aoju-memory
 
 > Long-term memory, learning, and self-evolution for AI agents powered by OpenClaw.
 
