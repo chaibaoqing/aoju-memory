@@ -22,12 +22,12 @@ aoju-memory/
 │   ├── mem_learn.py           # 记录教训：mem_learn --incident "..." --lesson "..."
 │   ├── mem_evolve.py          # 进化 review：mem_evolve [--dry-run]
 │   └── mem_status.py          # 记忆系统健康状态
-└── references/                 # （预留）
+└── _meta.json                  # 包信息
 ```
 
 ## 安装
 
-### 方式一：OpenClaw 内置（如果已发布到 ClawHub）
+### 方式一：OpenClaw 内置
 ```bash
 openclaw skills install aoju-memory
 ```
@@ -35,7 +35,7 @@ openclaw skills install aoju-memory
 ### 方式二：手动安装
 ```bash
 # 克隆仓库
-git clone https://github.com/<你的用户名>/aoju-memory.git
+git clone https://github.com/chaibaoqing/aoju-memory.git
 cd aoju-memory
 
 # 复制到 OpenClaw workspace skills 目录
@@ -58,13 +58,13 @@ cp -r . ~/.openclaw/workspace/skills/aoju-memory/
 
 ```bash
 # 搜索记忆
-python3 scripts/mem_recall.py "深圳庆哥" --limit 5
+python3 scripts/mem_recall.py "用户偏好" --limit 5
 
 # 记录一条教训
 python3 scripts/mem_learn.py \
-  --incident "庆哥说我吹牛" \
-  --lesson "以后说天气要基于实际数据不要凭空想象" \
-  --tags "communication,accuracy \
+  --incident "用户反馈说某个回答不准确" \
+  --lesson "回答前先确认信息来源，避免凭空猜测" \
+  --tags "communication,accuracy" \
   --confidence high
 
 # 查看记忆系统健康
@@ -89,7 +89,7 @@ python3 scripts/mem_evolve.py --dry-run
 ## 自我进化流程
 
 ```
-每次对话 → 庆哥反馈 或 重要决策
+每次对话 → 用户反馈 或 重要决策
     ↓
 mem_learn.py 记录教训
     ↓
@@ -104,4 +104,6 @@ mem_evolve.py 分析模式
 
 ## License
 
-MIT — 随便用，改了也能用，不需要署名。
+MIT — 可自由使用、修改、分发。
+
+**署名要求**：使用时需注明原作者。

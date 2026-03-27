@@ -19,6 +19,5 @@
     "mem_evolve.py",
     "mem_status.py"
   ],
-  "requirements": [],
-  "commit": "https://github.com/chaibaoqing/aoju-memory/commit/main"
+  "requirements": []
 }
